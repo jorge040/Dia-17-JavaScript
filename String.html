@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+        let cadena = prompt(' Ingresa una cadena: ');
+        document.write(' La cadena ingresada es: ' + cadena);
+        document.write('<br>');
+
+        document.write(' La cantidad de caracteres son: ' + cadena.length);
+        document.write('<br>');
+
+
+        document.write(' El primer caracter es: ' + cadena.charAt(0));
+        document.write('<br>');
+
+        document.write(' Los primeros tres caracteres son: ' + cadena.substring(0,3));
+        document.write('<br>');
+
+        if (cadena.indexOf('Hola' != -1)) {
+            document.write(' Se ingreso la subcadena Hola');
+
+        }else{
+            document.write(' No se ingreso la subcadena Hola: ');
+
+        }
+
+        document.write(' <br> ');
+        document.write(' La cadena convertida a mayuscula es: ' + cadena.toUpperCase());
+        document.write(' <br> ');
+
+        document.write(' <br> ');
+        document.write(' La cadena convertida a minusculas es: ' + cadena.toLocaleLowerCase());
+
+    </script>
+    
+</body>
+</html>
